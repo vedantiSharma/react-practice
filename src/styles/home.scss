@@ -1,4 +1,4 @@
-@import "colors";
+@import 'colors';
 
 .home {
   width: 100%;
@@ -21,7 +21,7 @@
     }
     p {
       font: 900 1rem 'Roboto';
-      color: white;
+      color: $first;
     }
   }
 }
