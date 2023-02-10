@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import vg from "../assets/";
+import vg from "..src /assets/images.jpg";
+
 const Header = () => {
   return (
     <>
