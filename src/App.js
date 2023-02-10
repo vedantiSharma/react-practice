@@ -1,12 +1,15 @@
 import React from 'react';
-// import './style.css';
+ import './style.css';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './components/Header';
+import Header from "./components/Header";
+import Home from "./components/Home";
+
 
 import './styles/App.scss';
-import './styles/home.scss';
 import './styles/Header.scss';
+import './styles/home.scss';
+
 //  function Heading(){
 //    return <h1>Heading </h1>
 //  }
@@ -19,7 +22,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route />
+        <Route path = "/" element ={<Home />} />
       </Routes>
     </Router>
   );
