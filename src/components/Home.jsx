@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import vg from "..src /assets/images.jpg";
+import vg from "../assets/2.jpg";
 
 const Header = () => {
   return (
@@ -14,7 +14,7 @@ const Header = () => {
      
 
      <div className = "home2">
-      <img src={vg}  alt="Graphics"/>
+      <img src= {vg}  alt="Graphics"/>
       <div>
         <p>
           qqqqqqqqqqqqqqqqqpppppppp ppppppppeeeeeee pppppppppfffff fjfnhbfhvb vsnihvkhnvv uvuewinhwvnjvns vnn hnuwbvbiuvbuijkn jviwnvuwjnebjb  vbviwlvnhijnw
