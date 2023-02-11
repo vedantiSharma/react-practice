@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import vg from './1.jpg';
+import img from "./assets/1.jpg";
+import assets from "./2/jpg";
 
 const Header = () => {
   return (
@@ -13,7 +14,7 @@ const Header = () => {
       </div>
 
       <div className="home2">
-        <img src={vg} alt="Graphics" />
+        <img src={} alt="Graphics" />
         <div>
           <p>
             qqqqqqqqqqqqqqqqqpppppppp ppppppppeeeeeee pppppppppfffff fjfnhbfhvb
