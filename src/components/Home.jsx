@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import img from "./assets/1.jpg";
-import assets from "./2/jpg";
+import img from "./assets/2.jpg";
 
 const Header = () => {
   return (
@@ -14,12 +14,10 @@ const Header = () => {
       </div>
 
       <div className="home2">
-        <img src={} alt="Graphics" />
+        <img src =" 2.jpg" alt="Graphics" />
         <div>
           <p>
-            qqqqqqqqqqqqqqqqqpppppppp ppppppppeeeeeee pppppppppfffff fjfnhbfhvb
-            vsnihvkhnvv uvuewinhwvnjvns vnn hnuwbvbiuvbuijkn jviwnvuwjnebjb
-            vbviwlvnhijnw
+            SSL/TLS certificates are essential for enabling HTTPS on your servers(to performs encryption/ decryption) but if they are not used wisely (specially if their private keys are not protected safely) then this can cause data leaks by any attackers/hackers.
           </p>
         </div>
       </div>

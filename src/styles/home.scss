@@ -51,7 +51,10 @@
 
   > img {
     width: 30%;
-    animation: imgUp 0.7s linear infinite alternate;
+    animation: imgUp 0.7s linear infinite alternate ;
+    background-image: url("../assets/2.jpg");
+
+   
   }
   > div {
     width: 50%;
